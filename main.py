@@ -70,9 +70,18 @@ Responsibilities:
 """
 
 
-embedding_model = HuggingFaceEmbeddings(
-    model_name="BAAI/bge-small-en-v1.5"
-)
+_embedding_model = None
+
+
+def get_embedding_model():
+    global _embedding_model
+
+    if _embedding_model is None:
+        _embedding_model = HuggingFaceEmbeddings(
+            model_name="BAAI/bge-small-en-v1.5"
+        )
+
+    return _embedding_model
 
 
 def get_vectorstore():
@@ -83,7 +92,7 @@ def get_vectorstore():
 
         vectorstore = Chroma(
             collection_name=COLLECTION_NAME,
-            embedding_function=embedding_model,
+            embedding_function=get_embedding_model(),
             persist_directory=CHROMA_PATH
         )
 
@@ -124,7 +133,7 @@ def get_vectorstore():
 
     vectorstore = Chroma.from_documents(
         documents=question_docs,
-        embedding=embedding_model,
+        embedding=get_embedding_model(),
         collection_name=COLLECTION_NAME,
         persist_directory=CHROMA_PATH
     )
