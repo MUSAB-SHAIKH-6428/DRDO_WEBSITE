@@ -65,7 +65,7 @@ const defaultConfig: SetupConfig = {
   jd: DEFAULT_JD,
   questionSource: 'ai',
   answerMethod: 'text',
-  questionCount: 7, // Exactly 2 icebreakers + 5 technical questions
+  questionCount: 7, 
   manualQuestions: [
     'How do you manage race conditions and thread safety in shared memory architectures?',
     'Explain the design of a zero-copy circular ring buffer for real-time telemetry.',
