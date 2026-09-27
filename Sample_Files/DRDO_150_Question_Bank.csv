@@ -1,0 +1,151 @@
+question_id,domain,topic,difficulty,question_type,question,source,language,content_type
+SW001,Software & Systems,Programming Fundamentals,Easy,Conceptual,What is the difference between a compiler and an interpreter?,DRDO-style technical interview question bank,en,interview_question
+SW002,Software & Systems,Programming Fundamentals,Easy,Conceptual,Explain the difference between stack memory and heap memory.,DRDO-style technical interview question bank,en,interview_question
+SW003,Software & Systems,Programming Fundamentals,Easy,Conceptual,What is the difference between a process and a thread?,DRDO-style technical interview question bank,en,interview_question
+SW004,Software & Systems,Programming Fundamentals,Easy,Conceptual,Explain the four main principles of object-oriented programming.,DRDO-style technical interview question bank,en,interview_question
+SW005,Software & Systems,Programming Fundamentals,Easy,Scenario,When would you choose composition over inheritance?,DRDO-style technical interview question bank,en,interview_question
+SW006,Software & Systems,Data Structures,Easy,Conceptual,"Compare an array, linked list, and hash table.",DRDO-style technical interview question bank,en,interview_question
+SW007,Software & Systems,Data Structures,Easy,Conceptual,What is the average and worst-case lookup complexity of a hash table?,DRDO-style technical interview question bank,en,interview_question
+SW008,Software & Systems,Data Structures,Medium,Scenario,How would you design a data structure for fast insertion and lookup of unique telemetry IDs?,DRDO-style technical interview question bank,en,interview_question
+SW009,Software & Systems,Algorithms,Easy,Conceptual,What is Big-O notation and why is it useful?,DRDO-style technical interview question bank,en,interview_question
+SW010,Software & Systems,Algorithms,Medium,Problem Solving,How would you find duplicate values in a large collection efficiently?,DRDO-style technical interview question bank,en,interview_question
+SW011,Software & Systems,Algorithms,Medium,Problem Solving,How would you determine whether a string is a palindrome efficiently?,DRDO-style technical interview question bank,en,interview_question
+SW012,Software & Systems,Algorithms,Medium,Scenario,How would you find the top K most frequent events in a large dataset?,DRDO-style technical interview question bank,en,interview_question
+SW013,Software & Systems,Algorithms,Hard,Problem Solving,How would you design an algorithm to detect cycles in a dependency graph?,DRDO-style technical interview question bank,en,interview_question
+SW014,Software & Systems,Python,Easy,Conceptual,What are Python generators and when would you use them?,DRDO-style technical interview question bank,en,interview_question
+SW015,Software & Systems,Python,Medium,Scenario,How would you process a multi-gigabyte log file in Python without loading it entirely into memory?,DRDO-style technical interview question bank,en,interview_question
+SW016,Software & Systems,Python,Medium,Conceptual,What is the difference between shallow copy and deep copy in Python?,DRDO-style technical interview question bank,en,interview_question
+SW017,Software & Systems,Python,Medium,Scenario,How would you structure a Python application so that it is easy to test and maintain?,DRDO-style technical interview question bank,en,interview_question
+SW018,Software & Systems,C++,Easy,Conceptual,What is the difference between a pointer and a reference in C++?,DRDO-style technical interview question bank,en,interview_question
+SW019,Software & Systems,C++,Medium,Conceptual,Explain RAII and why it is important in C++.,DRDO-style technical interview question bank,en,interview_question
+SW020,Software & Systems,C++,Medium,Scenario,How would you safely manage dynamically allocated resources in C++?,DRDO-style technical interview question bank,en,interview_question
+SW021,Software & Systems,Linux,Easy,Practical,How would you inspect running processes on a Linux system?,DRDO-style technical interview question bank,en,interview_question
+SW022,Software & Systems,Linux,Easy,Practical,How would you investigate a process consuming excessive CPU?,DRDO-style technical interview question bank,en,interview_question
+SW023,Software & Systems,Linux,Medium,Scenario,A service works manually but fails when started automatically. How would you debug it?,DRDO-style technical interview question bank,en,interview_question
+SW024,Software & Systems,Git,Easy,Conceptual,What is the difference between git merge and git rebase?,DRDO-style technical interview question bank,en,interview_question
+SW025,Software & Systems,Git,Medium,Scenario,How would you resolve a merge conflict without losing another developer's changes?,DRDO-style technical interview question bank,en,interview_question
+SW026,Software & Systems,SQL,Easy,Conceptual,What is the difference between INNER JOIN and LEFT JOIN?,DRDO-style technical interview question bank,en,interview_question
+SW027,Software & Systems,SQL,Medium,Scenario,How would you find duplicate records in a database table?,DRDO-style technical interview question bank,en,interview_question
+SW028,Software & Systems,SQL,Medium,Performance,What factors can make a SQL query slow?,DRDO-style technical interview question bank,en,interview_question
+SW029,Software & Systems,Databases,Easy,Conceptual,What is an index and why does it improve query performance?,DRDO-style technical interview question bank,en,interview_question
+SW030,Software & Systems,Databases,Medium,Conceptual,Explain ACID transactions.,DRDO-style technical interview question bank,en,interview_question
+SW031,Software & Systems,Databases,Medium,Scenario,How would you prevent two concurrent processes from corrupting the same record?,DRDO-style technical interview question bank,en,interview_question
+SW032,Software & Systems,APIs,Easy,Conceptual,What is a REST API?,DRDO-style technical interview question bank,en,interview_question
+SW033,Software & Systems,APIs,Medium,Scenario,How would you design an API for submitting telemetry data?,DRDO-style technical interview question bank,en,interview_question
+SW034,Software & Systems,APIs,Medium,Reliability,How would you make an API idempotent?,DRDO-style technical interview question bank,en,interview_question
+SW035,Software & Systems,Testing,Easy,Conceptual,What is the difference between unit testing and integration testing?,DRDO-style technical interview question bank,en,interview_question
+SW036,Software & Systems,Testing,Medium,Scenario,How would you test a component that processes mission telemetry?,DRDO-style technical interview question bank,en,interview_question
+SW037,Software & Systems,Debugging,Easy,Scenario,A program suddenly starts producing incorrect results after a code change. How would you debug it?,DRDO-style technical interview question bank,en,interview_question
+SW038,Software & Systems,Debugging,Medium,Scenario,How would you investigate a memory leak in a long-running application?,DRDO-style technical interview question bank,en,interview_question
+SW039,Software & Systems,Concurrency,Medium,Conceptual,What is a race condition?,DRDO-style technical interview question bank,en,interview_question
+SW040,Software & Systems,Concurrency,Medium,Scenario,How would you prevent race conditions when multiple threads update shared state?,DRDO-style technical interview question bank,en,interview_question
+SW041,Software & Systems,Concurrency,Hard,Conceptual,What is a deadlock and what conditions are required for one to occur?,DRDO-style technical interview question bank,en,interview_question
+SW042,Software & Systems,Distributed Systems,Medium,Conceptual,What challenges arise when processing data across multiple machines?,DRDO-style technical interview question bank,en,interview_question
+SW043,Software & Systems,Distributed Systems,Medium,Scenario,How would you design a service that continues operating when one worker fails?,DRDO-style technical interview question bank,en,interview_question
+SW044,Software & Systems,Distributed Systems,Hard,Scenario,How would you handle duplicate messages in a distributed processing system?,DRDO-style technical interview question bank,en,interview_question
+SW045,Software & Systems,Performance,Medium,Scenario,A service's latency has doubled after a new release. What would you investigate first?,DRDO-style technical interview question bank,en,interview_question
+SW046,Software & Systems,Performance,Hard,System Design,How would you design a high-throughput telemetry processing service?,DRDO-style technical interview question bank,en,interview_question
+SW047,Software & Systems,Security,Medium,Conceptual,What is the principle of least privilege?,DRDO-style technical interview question bank,en,interview_question
+SW048,Software & Systems,Security,Medium,Scenario,How would you securely handle credentials used by a backend application?,DRDO-style technical interview question bank,en,interview_question
+SW049,Software & Systems,System Design,Hard,System Design,"Design a system that ingests, validates, stores, and queries real-time sensor data.",DRDO-style technical interview question bank,en,interview_question
+SW050,Software & Systems,System Design,Hard,System Design,Design a reliable software platform for running and tracking simulation experiments.,DRDO-style technical interview question bank,en,interview_question
+DA001,Data & AI,Python,Easy,Conceptual,"What is the difference between a Python list, tuple, set, and dictionary?",DRDO-style technical interview question bank,en,interview_question
+DA002,Data & AI,Python,Easy,Scenario,How would you process a CSV file too large to fit into memory?,DRDO-style technical interview question bank,en,interview_question
+DA003,Data & AI,Pandas,Easy,Conceptual,What is the difference between loc and iloc in Pandas?,DRDO-style technical interview question bank,en,interview_question
+DA004,Data & AI,Pandas,Medium,Scenario,How would you handle missing values in a large dataset?,DRDO-style technical interview question bank,en,interview_question
+DA005,Data & AI,Pandas,Medium,Performance,How would you optimize a slow Pandas transformation?,DRDO-style technical interview question bank,en,interview_question
+DA006,Data & AI,SQL,Easy,Conceptual,Explain primary keys and foreign keys.,DRDO-style technical interview question bank,en,interview_question
+DA007,Data & AI,SQL,Medium,Scenario,How would you find the second-highest salary in a table?,DRDO-style technical interview question bank,en,interview_question
+DA008,Data & AI,SQL,Medium,Conceptual,What are window functions and when would you use them?,DRDO-style technical interview question bank,en,interview_question
+DA009,Data & AI,SQL,Medium,Performance,What is query optimization and what factors affect SQL performance?,DRDO-style technical interview question bank,en,interview_question
+DA010,Data & AI,SQL,Hard,Scenario,A query joining two very large tables is slow. How would you investigate and optimize it?,DRDO-style technical interview question bank,en,interview_question
+DA011,Data & AI,ETL,Easy,Conceptual,What is the difference between ETL and ELT?,DRDO-style technical interview question bank,en,interview_question
+DA012,Data & AI,ETL,Medium,Scenario,Design a batch ETL pipeline for daily operational data.,DRDO-style technical interview question bank,en,interview_question
+DA013,Data & AI,ETL,Medium,Reliability,What does idempotency mean in a data pipeline?,DRDO-style technical interview question bank,en,interview_question
+DA014,Data & AI,ETL,Medium,Scenario,How would you prevent duplicate records when an ETL job is rerun?,DRDO-style technical interview question bank,en,interview_question
+DA015,Data & AI,ETL,Hard,System Design,How would you design an incremental data-loading pipeline?,DRDO-style technical interview question bank,en,interview_question
+DA016,Data & AI,Data Modeling,Easy,Conceptual,What is the difference between a fact table and a dimension table?,DRDO-style technical interview question bank,en,interview_question
+DA017,Data & AI,Data Modeling,Medium,Conceptual,What is grain in dimensional modeling?,DRDO-style technical interview question bank,en,interview_question
+DA018,Data & AI,Data Modeling,Medium,Scenario,How would you model sales transactions for analytical reporting?,DRDO-style technical interview question bank,en,interview_question
+DA019,Data & AI,Data Warehousing,Medium,Conceptual,What is the purpose of a star schema?,DRDO-style technical interview question bank,en,interview_question
+DA020,Data & AI,Data Warehousing,Medium,Conceptual,What is the difference between a data warehouse and a transactional database?,DRDO-style technical interview question bank,en,interview_question
+DA021,Data & AI,Data Warehousing,Medium,Scenario,How would you handle historical changes to customer attributes?,DRDO-style technical interview question bank,en,interview_question
+DA022,Data & AI,SCD,Medium,Conceptual,Explain SCD Type 1 and Type 2.,DRDO-style technical interview question bank,en,interview_question
+DA023,Data & AI,Data Quality,Easy,Conceptual,What dimensions of data quality would you monitor in a production pipeline?,DRDO-style technical interview question bank,en,interview_question
+DA024,Data & AI,Data Quality,Medium,Scenario,A daily pipeline suddenly receives 40% fewer records. How would you detect and investigate it?,DRDO-style technical interview question bank,en,interview_question
+DA025,Data & AI,PySpark,Easy,Conceptual,What is the difference between a transformation and an action in Spark?,DRDO-style technical interview question bank,en,interview_question
+DA026,Data & AI,PySpark,Medium,Conceptual,What is lazy evaluation in Spark?,DRDO-style technical interview question bank,en,interview_question
+DA027,Data & AI,PySpark,Medium,Performance,What causes a shuffle in Spark?,DRDO-style technical interview question bank,en,interview_question
+DA028,Data & AI,PySpark,Medium,Performance,When would you use repartition versus coalesce?,DRDO-style technical interview question bank,en,interview_question
+DA029,Data & AI,PySpark,Medium,Performance,What is a broadcast join and when is it useful?,DRDO-style technical interview question bank,en,interview_question
+DA030,Data & AI,PySpark,Hard,Scenario,A Spark job is suffering from data skew. How would you identify and address it?,DRDO-style technical interview question bank,en,interview_question
+DA031,Data & AI,Spark Streaming,Medium,Conceptual,What is Structured Streaming in Apache Spark?,DRDO-style technical interview question bank,en,interview_question
+DA032,Data & AI,Spark Streaming,Medium,Conceptual,What is checkpointing in Structured Streaming?,DRDO-style technical interview question bank,en,interview_question
+DA033,Data & AI,Spark Streaming,Medium,Scenario,How would you process late-arriving events in a streaming pipeline?,DRDO-style technical interview question bank,en,interview_question
+DA034,Data & AI,Delta Lake,Medium,Conceptual,What problem does Delta Lake solve compared with plain data lake files?,DRDO-style technical interview question bank,en,interview_question
+DA035,Data & AI,Delta Lake,Medium,Scenario,How would you implement an upsert into a Delta table?,DRDO-style technical interview question bank,en,interview_question
+DA036,Data & AI,Databricks,Easy,Conceptual,What is Databricks and why is it useful for data engineering?,DRDO-style technical interview question bank,en,interview_question
+DA037,Data & AI,Data Lake,Medium,Conceptual,"Compare a data lake, data warehouse, and lakehouse.",DRDO-style technical interview question bank,en,interview_question
+DA038,Data & AI,Data Storage,Medium,Conceptual,Why are columnar formats such as Parquet useful for analytics?,DRDO-style technical interview question bank,en,interview_question
+DA039,Data & AI,Data Storage,Medium,Performance,What is predicate pushdown?,DRDO-style technical interview question bank,en,interview_question
+DA040,Data & AI,Data Storage,Medium,Performance,What is the small-file problem in data lakes and how can it be addressed?,DRDO-style technical interview question bank,en,interview_question
+DA041,Data & AI,Machine Learning,Easy,Conceptual,What is the difference between supervised and unsupervised learning?,DRDO-style technical interview question bank,en,interview_question
+DA042,Data & AI,Machine Learning,Medium,Conceptual,What is overfitting and how can it be reduced?,DRDO-style technical interview question bank,en,interview_question
+DA043,Data & AI,Machine Learning,Medium,Evaluation,Why should training and test data be separated?,DRDO-style technical interview question bank,en,interview_question
+DA044,Data & AI,NLP,Easy,Conceptual,What is an embedding in NLP?,DRDO-style technical interview question bank,en,interview_question
+DA045,Data & AI,RAG,Easy,Conceptual,What is retrieval-augmented generation and why is it useful?,DRDO-style technical interview question bank,en,interview_question
+DA046,Data & AI,RAG,Medium,Architecture,Describe the main stages of a RAG pipeline.,DRDO-style technical interview question bank,en,interview_question
+DA047,Data & AI,RAG,Medium,Scenario,How would you improve retrieval when a RAG system returns irrelevant documents?,DRDO-style technical interview question bank,en,interview_question
+DA048,Data & AI,RAG,Hard,Evaluation,How would you evaluate the retrieval quality of a RAG system?,DRDO-style technical interview question bank,en,interview_question
+DA049,Data & AI,LLM,Medium,Scenario,How would you reduce hallucinations in an LLM-based technical interview system?,DRDO-style technical interview question bank,en,interview_question
+DA050,Data & AI,Data Engineering,Hard,System Design,"Design an end-to-end platform that ingests technical documents, indexes them, retrieves relevant content, and serves an AI application.",DRDO-style technical interview question bank,en,interview_question
+ME001,Mechanical Engineering,Engineering Fundamentals,Easy,Conceptual,Explain the difference between stress and strain.,DRDO-style technical interview question bank,en,interview_question
+ME002,Mechanical Engineering,Engineering Fundamentals,Easy,Conceptual,What is Young's modulus and what does it represent?,DRDO-style technical interview question bank,en,interview_question
+ME003,Mechanical Engineering,Engineering Fundamentals,Easy,Conceptual,What is the difference between ductile and brittle materials?,DRDO-style technical interview question bank,en,interview_question
+ME004,Mechanical Engineering,Engineering Fundamentals,Medium,Scenario,How would material selection change for a component exposed to high temperature?,DRDO-style technical interview question bank,en,interview_question
+ME005,Mechanical Engineering,Materials,Easy,Conceptual,What factors influence the selection of a material for a mechanical component?,DRDO-style technical interview question bank,en,interview_question
+ME006,Mechanical Engineering,Materials,Medium,Scenario,How would you select a material for a lightweight but high-strength structural component?,DRDO-style technical interview question bank,en,interview_question
+ME007,Mechanical Engineering,Manufacturing,Easy,Conceptual,"Explain the difference between casting, forging, and machining.",DRDO-style technical interview question bank,en,interview_question
+ME008,Mechanical Engineering,Manufacturing,Medium,Scenario,Which manufacturing process would you consider for producing a high-strength complex component and why?,DRDO-style technical interview question bank,en,interview_question
+ME009,Mechanical Engineering,Manufacturing,Medium,Quality,What causes dimensional variation during machining?,DRDO-style technical interview question bank,en,interview_question
+ME010,Mechanical Engineering,Manufacturing,Medium,Scenario,How would you investigate repeated defects appearing in a manufacturing line?,DRDO-style technical interview question bank,en,interview_question
+ME011,Mechanical Engineering,CAD,Easy,Conceptual,What is CAD and how is it used in mechanical engineering?,DRDO-style technical interview question bank,en,interview_question
+ME012,Mechanical Engineering,CAD,Medium,Scenario,What design considerations are important before converting a CAD model into a manufactured part?,DRDO-style technical interview question bank,en,interview_question
+ME013,Mechanical Engineering,Design,Easy,Conceptual,What is a factor of safety?,DRDO-style technical interview question bank,en,interview_question
+ME014,Mechanical Engineering,Design,Medium,Scenario,How would you design a component that experiences repeated cyclic loading?,DRDO-style technical interview question bank,en,interview_question
+ME015,Mechanical Engineering,Design,Hard,Scenario,How would you investigate a structural component that repeatedly fails below its expected load?,DRDO-style technical interview question bank,en,interview_question
+ME016,Mechanical Engineering,Thermodynamics,Easy,Conceptual,State the first law of thermodynamics.,DRDO-style technical interview question bank,en,interview_question
+ME017,Mechanical Engineering,Thermodynamics,Easy,Conceptual,What is the difference between heat and work?,DRDO-style technical interview question bank,en,interview_question
+ME018,Mechanical Engineering,Thermodynamics,Medium,Scenario,Why does thermal efficiency matter in an engineering system?,DRDO-style technical interview question bank,en,interview_question
+ME019,Mechanical Engineering,Thermodynamics,Medium,Conceptual,Explain entropy in practical engineering terms.,DRDO-style technical interview question bank,en,interview_question
+ME020,Mechanical Engineering,Heat Transfer,Easy,Conceptual,"What are conduction, convection, and radiation?",DRDO-style technical interview question bank,en,interview_question
+ME021,Mechanical Engineering,Heat Transfer,Medium,Scenario,How would you reduce unwanted heat transfer from a component?,DRDO-style technical interview question bank,en,interview_question
+ME022,Mechanical Engineering,Fluid Mechanics,Easy,Conceptual,What is pressure and how is it related to fluid flow?,DRDO-style technical interview question bank,en,interview_question
+ME023,Mechanical Engineering,Fluid Mechanics,Medium,Conceptual,What is Reynolds number and why is it useful?,DRDO-style technical interview question bank,en,interview_question
+ME024,Mechanical Engineering,Fluid Mechanics,Medium,Scenario,How would you determine whether flow through a pipe is likely to be laminar or turbulent?,DRDO-style technical interview question bank,en,interview_question
+ME025,Mechanical Engineering,Vibrations,Easy,Conceptual,What is natural frequency?,DRDO-style technical interview question bank,en,interview_question
+ME026,Mechanical Engineering,Vibrations,Medium,Scenario,Why can resonance be dangerous in mechanical systems?,DRDO-style technical interview question bank,en,interview_question
+ME027,Mechanical Engineering,Vibrations,Medium,Scenario,How would you investigate unexpected vibration in rotating machinery?,DRDO-style technical interview question bank,en,interview_question
+ME028,Mechanical Engineering,Reliability,Easy,Conceptual,What is preventive maintenance?,DRDO-style technical interview question bank,en,interview_question
+ME029,Mechanical Engineering,Reliability,Medium,Conceptual,What is predictive maintenance?,DRDO-style technical interview question bank,en,interview_question
+ME030,Mechanical Engineering,Reliability,Medium,Scenario,Which sensor data could be useful for predicting rotating-machine failure?,DRDO-style technical interview question bank,en,interview_question
+ME031,Mechanical Engineering,Failure Analysis,Easy,Conceptual,What is root-cause analysis?,DRDO-style technical interview question bank,en,interview_question
+ME032,Mechanical Engineering,Failure Analysis,Medium,Scenario,How would you perform a root-cause analysis after a mechanical component fails?,DRDO-style technical interview question bank,en,interview_question
+ME033,Mechanical Engineering,Failure Analysis,Hard,Scenario,A component fails intermittently under field conditions but passes laboratory testing. How would you investigate?,DRDO-style technical interview question bank,en,interview_question
+ME034,Mechanical Engineering,Testing,Easy,Conceptual,Why is validation testing important in engineering design?,DRDO-style technical interview question bank,en,interview_question
+ME035,Mechanical Engineering,Testing,Medium,Scenario,How would you design a test plan for a new mechanical component?,DRDO-style technical interview question bank,en,interview_question
+ME036,Mechanical Engineering,Testing,Medium,Scenario,How would you determine whether test results are repeatable?,DRDO-style technical interview question bank,en,interview_question
+ME037,Mechanical Engineering,Simulation,Easy,Conceptual,What is the purpose of engineering simulation?,DRDO-style technical interview question bank,en,interview_question
+ME038,Mechanical Engineering,Simulation,Medium,Conceptual,What is finite element analysis used for?,DRDO-style technical interview question bank,en,interview_question
+ME039,Mechanical Engineering,Simulation,Medium,Scenario,What assumptions should be checked before trusting an FEA result?,DRDO-style technical interview question bank,en,interview_question
+ME040,Mechanical Engineering,Engineering Data,Easy,Conceptual,How can data analysis support mechanical engineering decisions?,DRDO-style technical interview question bank,en,interview_question
+ME041,Mechanical Engineering,Engineering Data,Medium,Scenario,How would you clean sensor data before using it for equipment analysis?,DRDO-style technical interview question bank,en,interview_question
+ME042,Mechanical Engineering,Engineering Data,Medium,Scenario,How would you detect anomalous measurements in machine-sensor data?,DRDO-style technical interview question bank,en,interview_question
+ME043,Mechanical Engineering,Python,Easy,Practical,How could Python be used to analyze engineering test data?,DRDO-style technical interview question bank,en,interview_question
+ME044,Mechanical Engineering,MATLAB,Easy,Practical,What types of engineering problems are well suited to MATLAB?,DRDO-style technical interview question bank,en,interview_question
+ME045,Mechanical Engineering,Systems Engineering,Medium,Conceptual,What is systems engineering and why is it useful for complex defence systems?,DRDO-style technical interview question bank,en,interview_question
+ME046,Mechanical Engineering,Systems Engineering,Medium,Scenario,How would you manage conflicting requirements between mechanical and electrical subsystems?,DRDO-style technical interview question bank,en,interview_question
+ME047,Mechanical Engineering,Defence Systems,Medium,Scenario,What additional design considerations might be important for equipment intended for harsh operating environments?,DRDO-style technical interview question bank,en,interview_question
+ME048,Mechanical Engineering,Defence Systems,Hard,Scenario,"How would you balance weight, strength, reliability, maintainability, and cost in a defence-system component?",DRDO-style technical interview question bank,en,interview_question
+ME049,Mechanical Engineering,Problem Solving,Hard,Scenario,A prototype meets individual component specifications but fails during integrated-system testing. How would you approach the investigation?,DRDO-style technical interview question bank,en,interview_question
+ME050,Mechanical Engineering,System Design,Hard,System Design,Design a test and monitoring system for a mechanical subsystem operating under variable environmental conditions.,DRDO-style technical interview question bank,en,interview_question
