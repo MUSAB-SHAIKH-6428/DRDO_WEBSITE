@@ -14,7 +14,8 @@ import type {
 } from '../types';
 
 
-const API_BASE_URL = 'http://localhost:5000/api';
+const API_BASE_URL =
+  `${import.meta.env.VITE_API_BASE_URL || 'http://localhost:5000'}/api`;
 
 type TransmissionListener = (status: string | null) => void;
 const transmissionListeners = new Set<TransmissionListener>();
